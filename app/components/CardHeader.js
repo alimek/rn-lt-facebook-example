@@ -13,20 +13,22 @@ const {
   TouchableOpacity,
 } = ReactNative;
 
-const CardHeader = ({ avatarURL, author, date }) => (
+const CardHeader = ({ avatarURL, author, date, onPress }) => (
   <TouchableOpacity
     activeOpacity={1}
     style={styles.container}
-    onPress={() => {}}
+    onPress={onPress}
   >
     <Avatar uri={avatarURL} circle />
     <View style={styles.content}>
       <Text style={styles.author}>{author}</Text>
-      <Text style={styles.time}>{moment(date).format('L')}</Text>
+      <Text style={styles.time}>{moment(date).fromNow()}</Text>
     </View>
-    <TouchableOpacity onPress={() => {}}>
-      <Icon name="angle-right" style={styles.navigateIcon} />
-    </TouchableOpacity>
+    {
+      onPress ?
+        <Icon name="angle-right" style={styles.navigateIcon} /> :
+        null
+    }
   </TouchableOpacity>
 );
 

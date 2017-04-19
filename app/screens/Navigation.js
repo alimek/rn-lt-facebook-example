@@ -8,6 +8,7 @@ const {
   TouchableHighlight,
   Navigator,
   StyleSheet,
+  Platform,
 } = ReactNative;
 
 const renderScene = (route, navigator) => {
@@ -47,7 +48,10 @@ const Navigation = () => (
   <Navigator
     configureScene={configureScene}
     style={{ flex:1 }}
-    initialRoute={{ component: FeedsPage, title: "Your feeds wall" }}
+    initialRoute={{
+      component: FeedsPage,
+      title: `Activity - Your platform: ${Platform.OS}`
+    }}
     renderScene={renderScene}
     sceneStyle={{
       marginTop: 64,

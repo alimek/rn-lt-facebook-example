@@ -4,17 +4,33 @@ import ReactNative from 'react-native';
 import Card from '../components/Card';
 import Avatar from '../components/Avatar';
 import Button from '../components/Button';
+import AddNewFeedModal from './AddNewFeedModal';
 
 const {
   View,
-  TextInput,
+  Text,
   StyleSheet,
   Alert,
+  TouchableOpacity,
 } = ReactNative;
 
 const showAlert = (message) => Alert.alert(message);
 
 class NewPostForm extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      isModalOpen: false,
+    };
+
+    this.toggleModal = this.toggleModal.bind(this);
+  }
+
+  toggleModal() {
+    this.setState({ isModalOpen: !this.state.isModalOpen });
+  }
+
   render() {
     return (
       <Card style={styles.container}>
@@ -22,11 +38,13 @@ class NewPostForm extends React.Component {
           <Avatar
             uri="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p48x48/13925422_1115639651812839_584935149095261691_n.jpg?oh=a1bbb71b08ed742d48dcc4a801873e68&oe=594E7917"
           />
-          <TextInput
+          <TouchableOpacity
             style={styles.input}
-            placeholder="How are you?"
-            multiline
-          />
+            activeOpacity={0.6}
+            onPress={this.toggleModal}
+          >
+            <Text style={styles.inputText}>How are you?</Text>
+          </TouchableOpacity>
         </View>
         <View style={styles.buttonContainer}>
           <Button
@@ -51,6 +69,11 @@ class NewPostForm extends React.Component {
             Location
           </Button>
         </View>
+        <AddNewFeedModal
+          isVisible={this.state.isModalOpen}
+          onClose={this.toggleModal}
+          rightAction={this.toggleModal}
+        />
       </Card>
     );
   }
@@ -80,6 +103,9 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     marginHorizontal: 10,
-    fontSize: 15,
-  }
+  },
+  inputText: {
+    color: 'grey',
+    fontSize: 20,
+  },
 });

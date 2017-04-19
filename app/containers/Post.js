@@ -10,12 +10,13 @@ const {
   StyleSheet,
 } = ReactNative;
 
-const Post = ({ post }) => (
-  <Card style={styles.container}>
+const Post = ({ post, onPress, style }) => (
+  <Card style={[styles.container, style]}>
     <CardHeader
       avatarURL={post.author.avatar}
       author={post.author.name}
       date={post.date}
+      onPress={onPress}
     />
     <CardContent text={post.message} />
     <CardFooter post={post} />
