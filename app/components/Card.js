@@ -2,14 +2,14 @@ import React from 'react';
 import ReactNative from 'react-native';
 
 const {
-  View,
   StyleSheet,
+  Animated,
 } = ReactNative;
 
 const Card = ({ children, style }) => (
-  <View style={[styles.container, style]}>
+  <Animated.View style={[styles.container, style]}>
     {children}
-  </View>
+  </Animated.View>
 );
 
 export default Card;
