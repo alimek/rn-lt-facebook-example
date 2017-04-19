@@ -6,7 +6,7 @@ Facebook example app written in ReactNative for LightingTalk in PGS Software.
 
 Installed
 
-1. Follow instruction [here](https://facebook.github.io/react-native/docs/getting-started.html).
+1. Follow instruction [here](https://facebook.github.io/react-native/docs/getting-started.html#installing-dependencies).
 1. Install `react-native-cli` using `npm install -g react-native-cli`.
 
 ## How to install
