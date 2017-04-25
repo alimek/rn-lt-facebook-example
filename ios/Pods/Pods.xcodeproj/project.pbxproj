@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DE7062FB81EDF9024BC51D5036930BA /* Pods-FacebookExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E641708790DEE699FF6B7C9671CEC21B /* Pods-FacebookExample-dummy.m */; };
+		348D6909889C1E8E9F9B36EC18DF8B90 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C1304C96DBAB0C708549F51FC946F4A9 /* en.lproj */; };
+		36AECFD37F041301B9444E370BF9DE84 /* Pods-FacebookExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C4ED90EB14DFCAB8F725136068CF23 /* Pods-FacebookExampleTests-dummy.m */; };
+		43B7AAA934CD4AF072F0B15A463F52BF /* Pods-FacebookExample-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B451E6E3B9432F5DC73A704E63A1938 /* Pods-FacebookExample-tvOSTests-dummy.m */; };
+		7A1372E75E8E72CDB2EA4EF466D43F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		92D7AFF8D28917EEB53C85A41BD8994D /* Pods-FacebookExample-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D752F522C0AC29754E1C29C6531C85 /* Pods-FacebookExample-tvOS-dummy.m */; };
+		B1135D350303C04167E1E6781761A72A /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C79B035E470DF214381D899780FF0494 /* de.lproj */; };
+		BCE8C2CFE6094AB28EF701F310B66EA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		C24C6056597B9CE0FBF006AE81D5AF2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		E3A57A6BB514BFE9250543DE9714FC58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		F8BDB3D75FDD76D6C3421C6B038413F9 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 26CE0C815DE68FBE6296E376CB3B02A3 /* fr.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C150C2BD50209C3B5094744B064AECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C0FDEB6348D853A717AE3774C29863;
+			remoteInfo = "MobileCenter-MobileCenterDistributeResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0164AA81C7AC1872527896A5D285B7E2 /* Pods-FacebookExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FacebookExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		05075FACDE9CCF889861222900C75781 /* Pods-FacebookExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FacebookExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B7B8AC72CBDA0F2C0E4D44BF9D45803 /* Pods-FacebookExample-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FacebookExample-tvOS-resources.sh"; sourceTree = "<group>"; };
+		158CD4E4C7F75169550BE4D5EC6C4F72 /* Pods-FacebookExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FacebookExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19BC7A7AA4037D75253200689825B0E8 /* Pods-FacebookExample-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FacebookExample-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		201E6443FAED1BE21D8BD835C0E256F3 /* libPods-FacebookExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FacebookExample-tvOS.a"; path = "libPods-FacebookExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2382903FA77BAFE171A97C177BE25B3C /* Pods-FacebookExample-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FacebookExample-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		26CE0C815DE68FBE6296E376CB3B02A3 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "MobileCenter-SDK-iOS/MobileCenterDistributeResources.bundle/fr.lproj"; sourceTree = "<group>"; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E9418AFE0024BC0944794F65B60C72D /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
+		2E9C522B6ADC076BE20CAD8F4B5C31A8 /* Pods-FacebookExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FacebookExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		3BC58D116333846F02ACD063579D0837 /* Pods-FacebookExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FacebookExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C073D7E7594BC0F2F6BF5D5A83D30E7 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
+		3F666401CFD89AB9CB0A12367F3CE3EB /* Pods-FacebookExample-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FacebookExample-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		452A7FF161842AAEF90755B9EAD356EC /* MobileCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterDistribute.framework; path = "MobileCenter-SDK-iOS/MobileCenterDistribute.framework"; sourceTree = "<group>"; };
+		46FB54773BE25D1161AFA2F4B6CC3EAB /* Pods-FacebookExample-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FacebookExample-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48D752F522C0AC29754E1C29C6531C85 /* Pods-FacebookExample-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FacebookExample-tvOS-dummy.m"; sourceTree = "<group>"; };
+		519BD001147A72976FB01C5FE8B91374 /* Pods-FacebookExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FacebookExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5401A6D9232B023224E7512E2CA85A6E /* Pods-FacebookExample-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FacebookExample-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		55EBE216A14E6083FCF6B498A057CD04 /* Pods-FacebookExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FacebookExample.debug.xcconfig"; sourceTree = "<group>"; };
+		568C91341506A34771BEBD62F01473E2 /* libPods-FacebookExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FacebookExample-tvOSTests.a"; path = "libPods-FacebookExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C1E938DCE3EA00BC00D8FE63C33E3A1 /* Pods-FacebookExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FacebookExampleTests-resources.sh"; sourceTree = "<group>"; };
+		71C4ED90EB14DFCAB8F725136068CF23 /* Pods-FacebookExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FacebookExampleTests-dummy.m"; sourceTree = "<group>"; };
+		7B451E6E3B9432F5DC73A704E63A1938 /* Pods-FacebookExample-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FacebookExample-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		7C6D94DC0BE9C7E5F43417D3F87B8340 /* Pods-FacebookExample-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FacebookExample-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		871A63C82EDC2A71FA9B76DE79D78590 /* Pods-FacebookExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FacebookExample-frameworks.sh"; sourceTree = "<group>"; };
+		8C4CCA4F227ED986EEC1A011E47D0BF7 /* RNMobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNMobileCenter.framework; path = RNMobileCenter/RNMobileCenter.framework; sourceTree = "<group>"; };
+		8E4A4DDD76250A78E84EE42FD1D58A21 /* Pods-FacebookExample-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FacebookExample-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		906B7A8EC23669CA51D779678249852C /* Pods-FacebookExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FacebookExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98190577528895576EB61FD07811A6B6 /* libPods-FacebookExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FacebookExampleTests.a"; path = "libPods-FacebookExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA360C64B6062A4F64B1C45494F9A79E /* Pods-FacebookExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FacebookExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB10FEE8566E7227BD165DB819935E0A /* libPods-FacebookExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FacebookExample.a"; path = "libPods-FacebookExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66F110C7B7A58319C844F34F718F599 /* ResourceBundle-MobileCenterDistributeResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MobileCenterDistributeResources-Info.plist"; sourceTree = "<group>"; };
+		B69950037308B829A2F64468E6DA44E6 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
+		C1304C96DBAB0C708549F51FC946F4A9 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "MobileCenter-SDK-iOS/MobileCenterDistributeResources.bundle/en.lproj"; sourceTree = "<group>"; };
+		C44291ABB5FC230D3CA134577A6AC5B8 /* Pods-FacebookExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FacebookExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C483CF43B23853E0F0F8EFE96E00768E /* Pods-FacebookExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FacebookExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C79B035E470DF214381D899780FF0494 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "MobileCenter-SDK-iOS/MobileCenterDistributeResources.bundle/de.lproj"; sourceTree = "<group>"; };
+		D273E7AE07968F0BB4B1E73EFFBB4F1A /* Pods-FacebookExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FacebookExample-resources.sh"; sourceTree = "<group>"; };
+		DB88ADD5EDF0318A531F13B2E7F4D951 /* MobileCenterDistributeResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MobileCenterDistributeResources.bundle; path = MobileCenterDistributeResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBED996496512306FDB44D9BB0EAEF09 /* Pods-FacebookExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FacebookExample.release.xcconfig"; sourceTree = "<group>"; };
+		E641708790DEE699FF6B7C9671CEC21B /* Pods-FacebookExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FacebookExample-dummy.m"; sourceTree = "<group>"; };
+		F21593D93DFB5EC42750E60D8086AF57 /* Pods-FacebookExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FacebookExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189A95E5A54EF60BE7A8EF71FB9BD9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24C6056597B9CE0FBF006AE81D5AF2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA1D2FD2E5813446850235A045116ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A57A6BB514BFE9250543DE9714FC58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC06A10BC9922B42A95E8B6CFBC7928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EA836D43A3C2450E529C4ECC97BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1372E75E8E72CDB2EA4EF466D43F25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4475100CEF9E9D3ADCD8D704FD977D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE8C2CFE6094AB28EF701F310B66EA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A03B7D003A5C2F7DC4B76017F487079 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC138BE24B9594B560672D5E8A81ADE2 /* Pods-FacebookExample */,
+				33D7B7187D0889B1393D1A73CC0032B6 /* Pods-FacebookExample-tvOS */,
+				CA12D8B5C6CE974C2FCC873C6ABC12B9 /* Pods-FacebookExample-tvOSTests */,
+				DDB9001F15C86C4E9F6A2B7FCEBF5956 /* Pods-FacebookExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0BE8097B4C36AD39C10CB1A7253D3BEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B66F110C7B7A58319C844F34F718F599 /* ResourceBundle-MobileCenterDistributeResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobileCenter";
+			sourceTree = "<group>";
+		};
+		1D59328D047148893B361B106E7FEF6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B69950037308B829A2F64468E6DA44E6 /* MobileCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EB34F332B1D0997ED7994C11EE81587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				452A7FF161842AAEF90755B9EAD356EC /* MobileCenterDistribute.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		33D7B7187D0889B1393D1A73CC0032B6 /* Pods-FacebookExample-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				19BC7A7AA4037D75253200689825B0E8 /* Pods-FacebookExample-tvOS-acknowledgements.markdown */,
+				8E4A4DDD76250A78E84EE42FD1D58A21 /* Pods-FacebookExample-tvOS-acknowledgements.plist */,
+				48D752F522C0AC29754E1C29C6531C85 /* Pods-FacebookExample-tvOS-dummy.m */,
+				3F666401CFD89AB9CB0A12367F3CE3EB /* Pods-FacebookExample-tvOS-frameworks.sh */,
+				0B7B8AC72CBDA0F2C0E4D44BF9D45803 /* Pods-FacebookExample-tvOS-resources.sh */,
+				906B7A8EC23669CA51D779678249852C /* Pods-FacebookExample-tvOS.debug.xcconfig */,
+				0164AA81C7AC1872527896A5D285B7E2 /* Pods-FacebookExample-tvOS.release.xcconfig */,
+			);
+			name = "Pods-FacebookExample-tvOS";
+			path = "Target Support Files/Pods-FacebookExample-tvOS";
+			sourceTree = "<group>";
+		};
+		3DD43F556959D859A6B0765108DD3787 /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				F278DAFB55CF3883D750238BF440A9D4 /* MobileCenter */,
+				5EDA52D428F9991AFAB17983E3D2FDDE /* MobileCenterAnalytics */,
+				C8245A0EBDC5ADFC0DA73DE062019E2B /* MobileCenterCrashes */,
+				858B7A20B51C5AFA962D0881DCF741C8 /* MobileCenterDistribute */,
+				0BE8097B4C36AD39C10CB1A7253D3BEC /* Support Files */,
+			);
+			name = MobileCenter;
+			path = MobileCenter;
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CCB17E1F6DFD4FCF6F45C7407BF470C /* RNMobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8B8814B7719AE49053CBF27ABA6962AA /* Frameworks */,
+			);
+			name = RNMobileCenter;
+			path = RNMobileCenter;
+			sourceTree = "<group>";
+		};
+		5EDA52D428F9991AFAB17983E3D2FDDE /* MobileCenterAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				CB6D9310F821CC0F6F6C51C78F3BDA95 /* Frameworks */,
+			);
+			name = MobileCenterAnalytics;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				D986B686FAF8002F8A9975EBF5C910B0 /* Pods */,
+				BC06C4A2C3A9DCBDBA717B67201999C5 /* Products */,
+				0A03B7D003A5C2F7DC4B76017F487079 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		858B7A20B51C5AFA962D0881DCF741C8 /* MobileCenterDistribute */ = {
+			isa = PBXGroup;
+			children = (
+				1EB34F332B1D0997ED7994C11EE81587 /* Frameworks */,
+				DF4EDEF55685AF1E11FE49D31841CE1B /* Resources */,
+			);
+			name = MobileCenterDistribute;
+			sourceTree = "<group>";
+		};
+		8B8814B7719AE49053CBF27ABA6962AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C4CCA4F227ED986EEC1A011E47D0BF7 /* RNMobileCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC06C4A2C3A9DCBDBA717B67201999C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB10FEE8566E7227BD165DB819935E0A /* libPods-FacebookExample.a */,
+				201E6443FAED1BE21D8BD835C0E256F3 /* libPods-FacebookExample-tvOS.a */,
+				568C91341506A34771BEBD62F01473E2 /* libPods-FacebookExample-tvOSTests.a */,
+				98190577528895576EB61FD07811A6B6 /* libPods-FacebookExampleTests.a */,
+				DB88ADD5EDF0318A531F13B2E7F4D951 /* MobileCenterDistributeResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8245A0EBDC5ADFC0DA73DE062019E2B /* MobileCenterCrashes */ = {
+			isa = PBXGroup;
+			children = (
+				E7C8C711213777773007480A650A0F8B /* Frameworks */,
+			);
+			name = MobileCenterCrashes;
+			sourceTree = "<group>";
+		};
+		CA12D8B5C6CE974C2FCC873C6ABC12B9 /* Pods-FacebookExample-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				46FB54773BE25D1161AFA2F4B6CC3EAB /* Pods-FacebookExample-tvOSTests-acknowledgements.markdown */,
+				5401A6D9232B023224E7512E2CA85A6E /* Pods-FacebookExample-tvOSTests-acknowledgements.plist */,
+				7B451E6E3B9432F5DC73A704E63A1938 /* Pods-FacebookExample-tvOSTests-dummy.m */,
+				2382903FA77BAFE171A97C177BE25B3C /* Pods-FacebookExample-tvOSTests-frameworks.sh */,
+				7C6D94DC0BE9C7E5F43417D3F87B8340 /* Pods-FacebookExample-tvOSTests-resources.sh */,
+				F21593D93DFB5EC42750E60D8086AF57 /* Pods-FacebookExample-tvOSTests.debug.xcconfig */,
+				3BC58D116333846F02ACD063579D0837 /* Pods-FacebookExample-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-FacebookExample-tvOSTests";
+			path = "Target Support Files/Pods-FacebookExample-tvOSTests";
+			sourceTree = "<group>";
+		};
+		CB6D9310F821CC0F6F6C51C78F3BDA95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E9418AFE0024BC0944794F65B60C72D /* MobileCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D986B686FAF8002F8A9975EBF5C910B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DD43F556959D859A6B0765108DD3787 /* MobileCenter */,
+				5CCB17E1F6DFD4FCF6F45C7407BF470C /* RNMobileCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC138BE24B9594B560672D5E8A81ADE2 /* Pods-FacebookExample */ = {
+			isa = PBXGroup;
+			children = (
+				519BD001147A72976FB01C5FE8B91374 /* Pods-FacebookExample-acknowledgements.markdown */,
+				AA360C64B6062A4F64B1C45494F9A79E /* Pods-FacebookExample-acknowledgements.plist */,
+				E641708790DEE699FF6B7C9671CEC21B /* Pods-FacebookExample-dummy.m */,
+				871A63C82EDC2A71FA9B76DE79D78590 /* Pods-FacebookExample-frameworks.sh */,
+				D273E7AE07968F0BB4B1E73EFFBB4F1A /* Pods-FacebookExample-resources.sh */,
+				55EBE216A14E6083FCF6B498A057CD04 /* Pods-FacebookExample.debug.xcconfig */,
+				DBED996496512306FDB44D9BB0EAEF09 /* Pods-FacebookExample.release.xcconfig */,
+			);
+			name = "Pods-FacebookExample";
+			path = "Target Support Files/Pods-FacebookExample";
+			sourceTree = "<group>";
+		};
+		DDB9001F15C86C4E9F6A2B7FCEBF5956 /* Pods-FacebookExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C483CF43B23853E0F0F8EFE96E00768E /* Pods-FacebookExampleTests-acknowledgements.markdown */,
+				C44291ABB5FC230D3CA134577A6AC5B8 /* Pods-FacebookExampleTests-acknowledgements.plist */,
+				71C4ED90EB14DFCAB8F725136068CF23 /* Pods-FacebookExampleTests-dummy.m */,
+				2E9C522B6ADC076BE20CAD8F4B5C31A8 /* Pods-FacebookExampleTests-frameworks.sh */,
+				6C1E938DCE3EA00BC00D8FE63C33E3A1 /* Pods-FacebookExampleTests-resources.sh */,
+				158CD4E4C7F75169550BE4D5EC6C4F72 /* Pods-FacebookExampleTests.debug.xcconfig */,
+				05075FACDE9CCF889861222900C75781 /* Pods-FacebookExampleTests.release.xcconfig */,
+			);
+			name = "Pods-FacebookExampleTests";
+			path = "Target Support Files/Pods-FacebookExampleTests";
+			sourceTree = "<group>";
+		};
+		DF4EDEF55685AF1E11FE49D31841CE1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C79B035E470DF214381D899780FF0494 /* de.lproj */,
+				C1304C96DBAB0C708549F51FC946F4A9 /* en.lproj */,
+				26CE0C815DE68FBE6296E376CB3B02A3 /* fr.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E7C8C711213777773007480A650A0F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C073D7E7594BC0F2F6BF5D5A83D30E7 /* MobileCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F278DAFB55CF3883D750238BF440A9D4 /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				1D59328D047148893B361B106E7FEF6D /* Frameworks */,
+			);
+			name = MobileCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A003D16002E5B4233912AD18C1858C5 /* Pods-FacebookExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E885293A77750E0DF643C2F96F2591 /* Build configuration list for PBXNativeTarget "Pods-FacebookExample" */;
+			buildPhases = (
+				2F1EB56D26AE85BA978F30DA7B3DE6B5 /* Sources */,
+				6FA1D2FD2E5813446850235A045116ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AEAC622758B5E705ADB2B18816760AC /* PBXTargetDependency */,
+			);
+			name = "Pods-FacebookExample";
+			productName = "Pods-FacebookExample";
+			productReference = AB10FEE8566E7227BD165DB819935E0A /* libPods-FacebookExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		35C0FDEB6348D853A717AE3774C29863 /* MobileCenter-MobileCenterDistributeResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F08F1BCEA20F679FDA4D6A0BD9AF03 /* Build configuration list for PBXNativeTarget "MobileCenter-MobileCenterDistributeResources" */;
+			buildPhases = (
+				85D8B80BDABF45F710CB3C8B502384AC /* Sources */,
+				BEC06A10BC9922B42A95E8B6CFBC7928 /* Frameworks */,
+				095C60D45F1F1BC01324ADE3A09B1D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobileCenter-MobileCenterDistributeResources";
+			productName = "MobileCenter-MobileCenterDistributeResources";
+			productReference = DB88ADD5EDF0318A531F13B2E7F4D951 /* MobileCenterDistributeResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9E4A0AE637A6A1A8A6D6EEBCBAA550DC /* Pods-FacebookExample-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF203C374A6691CCEAA6A93FF6CA58FE /* Build configuration list for PBXNativeTarget "Pods-FacebookExample-tvOS" */;
+			buildPhases = (
+				A52BC5F95AA55C29412044F386884386 /* Sources */,
+				D4475100CEF9E9D3ADCD8D704FD977D0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FacebookExample-tvOS";
+			productName = "Pods-FacebookExample-tvOS";
+			productReference = 201E6443FAED1BE21D8BD835C0E256F3 /* libPods-FacebookExample-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6BCFEB883C93D18F18C5FCBE0073766 /* Pods-FacebookExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244F39DC43E0FF85ACE54066A6CBBB7C /* Build configuration list for PBXNativeTarget "Pods-FacebookExampleTests" */;
+			buildPhases = (
+				B7726AC16A80EB22E1466275349873A0 /* Sources */,
+				189A95E5A54EF60BE7A8EF71FB9BD9E2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FacebookExampleTests";
+			productName = "Pods-FacebookExampleTests";
+			productReference = 98190577528895576EB61FD07811A6B6 /* libPods-FacebookExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC5D5FFDDB4DA6F4264A546FC3E37A5C /* Pods-FacebookExample-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCA78BB97A67372024A0C549EC3376E /* Build configuration list for PBXNativeTarget "Pods-FacebookExample-tvOSTests" */;
+			buildPhases = (
+				640AECE745DDAC0A5710443C91D9B609 /* Sources */,
+				D09EA836D43A3C2450E529C4ECC97BCB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FacebookExample-tvOSTests";
+			productName = "Pods-FacebookExample-tvOSTests";
+			productReference = 568C91341506A34771BEBD62F01473E2 /* libPods-FacebookExample-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BC06C4A2C3A9DCBDBA717B67201999C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C0FDEB6348D853A717AE3774C29863 /* MobileCenter-MobileCenterDistributeResources */,
+				2A003D16002E5B4233912AD18C1858C5 /* Pods-FacebookExample */,
+				9E4A0AE637A6A1A8A6D6EEBCBAA550DC /* Pods-FacebookExample-tvOS */,
+				EC5D5FFDDB4DA6F4264A546FC3E37A5C /* Pods-FacebookExample-tvOSTests */,
+				B6BCFEB883C93D18F18C5FCBE0073766 /* Pods-FacebookExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		095C60D45F1F1BC01324ADE3A09B1D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1135D350303C04167E1E6781761A72A /* de.lproj in Resources */,
+				348D6909889C1E8E9F9B36EC18DF8B90 /* en.lproj in Resources */,
+				F8BDB3D75FDD76D6C3421C6B038413F9 /* fr.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1EB56D26AE85BA978F30DA7B3DE6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE7062FB81EDF9024BC51D5036930BA /* Pods-FacebookExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640AECE745DDAC0A5710443C91D9B609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B7AAA934CD4AF072F0B15A463F52BF /* Pods-FacebookExample-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D8B80BDABF45F710CB3C8B502384AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52BC5F95AA55C29412044F386884386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D7AFF8D28917EEB53C85A41BD8994D /* Pods-FacebookExample-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7726AC16A80EB22E1466275349873A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AECFD37F041301B9444E370BF9DE84 /* Pods-FacebookExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AEAC622758B5E705ADB2B18816760AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MobileCenter-MobileCenterDistributeResources";
+			target = 35C0FDEB6348D853A717AE3774C29863 /* MobileCenter-MobileCenterDistributeResources */;
+			targetProxy = 9C150C2BD50209C3B5094744B064AECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0348DEB3D8F09929B6A8BF7924428EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0164AA81C7AC1872527896A5D285B7E2 /* Pods-FacebookExample-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		13553EE8F24C514AA6441D2CE06D05EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		48CB7362445FD33E01098ECE3DD4858B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906B7A8EC23669CA51D779678249852C /* Pods-FacebookExample-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		64D693833C240EC742324CB6C2D8B184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC58D116333846F02ACD063579D0837 /* Pods-FacebookExample-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		69B72B9AB9C56C5CA6FACCCD9B1984A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MobileCenter";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MobileCenter/ResourceBundle-MobileCenterDistributeResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MobileCenterDistributeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6CC1445425F904E7EB762AC94DC12463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EBE216A14E6083FCF6B498A057CD04 /* Pods-FacebookExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AFC68722148905714165497912F92B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C295FD6A8161FA247E1D397B45E15BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158CD4E4C7F75169550BE4D5EC6C4F72 /* Pods-FacebookExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E0378956A2A3E613CA96CE049E8F364C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MobileCenter";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MobileCenter/ResourceBundle-MobileCenterDistributeResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MobileCenterDistributeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E6D916F2811038B770838B8382BB9453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05075FACDE9CCF889861222900C75781 /* Pods-FacebookExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F1BFBDDDFCB4B432D720618359C0D8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBED996496512306FDB44D9BB0EAEF09 /* Pods-FacebookExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F51315B248B1F38A344F62324C34ABC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21593D93DFB5EC42750E60D8086AF57 /* Pods-FacebookExample-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244F39DC43E0FF85ACE54066A6CBBB7C /* Build configuration list for PBXNativeTarget "Pods-FacebookExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C295FD6A8161FA247E1D397B45E15BE8 /* Debug */,
+				E6D916F2811038B770838B8382BB9453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13553EE8F24C514AA6441D2CE06D05EA /* Debug */,
+				AFC68722148905714165497912F92B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCA78BB97A67372024A0C549EC3376E /* Build configuration list for PBXNativeTarget "Pods-FacebookExample-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51315B248B1F38A344F62324C34ABC4 /* Debug */,
+				64D693833C240EC742324CB6C2D8B184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F08F1BCEA20F679FDA4D6A0BD9AF03 /* Build configuration list for PBXNativeTarget "MobileCenter-MobileCenterDistributeResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0378956A2A3E613CA96CE049E8F364C /* Debug */,
+				69B72B9AB9C56C5CA6FACCCD9B1984A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF203C374A6691CCEAA6A93FF6CA58FE /* Build configuration list for PBXNativeTarget "Pods-FacebookExample-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CB7362445FD33E01098ECE3DD4858B /* Debug */,
+				0348DEB3D8F09929B6A8BF7924428EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E885293A77750E0DF643C2F96F2591 /* Build configuration list for PBXNativeTarget "Pods-FacebookExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC1445425F904E7EB762AC94DC12463 /* Debug */,
+				F1BFBDDDFCB4B432D720618359C0D8D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
