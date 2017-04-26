@@ -54,7 +54,7 @@ const Navigation = () => (
     }}
     renderScene={renderScene}
     sceneStyle={{
-      marginTop: 64,
+      marginTop: Platform.OS === 'ios' ? 64 : 55,
       flex: 1,
       backgroundColor: '#dfdfdf',
     }}
